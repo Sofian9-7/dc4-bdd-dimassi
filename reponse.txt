@@ -1,9 +1,21 @@
-1- SELECT country FROM country
+SELECT country 
+FROM country;
 
-2- SELECT name FROM entity
+SELECT name
+FROM entity;
 
-3- SELECT * FROM officer WHERE country_id = 5
+SELECT * 
+FROM officer 
+WHERE country_id = 5;
 
-4- SELECT COUNT(*) FROM entity 
+SELECT COUNT(*) 
+FROM entity;
 
-5- SELECT * FROM entity WHERE incorporation_date > '2000-01-01'
+SELECT * 
+FROM entity 
+WHERE incorporation_date > '2000-01-01';
+
+SELECT intermediary.* , address.* 
+FROM intermediary, address 
+WHERE intermediary.id_address = address.id_address;
+

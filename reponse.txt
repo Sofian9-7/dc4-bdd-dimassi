@@ -5,3 +5,5 @@
 3- SELECT * FROM officer WHERE country_id = 5
 
 4- SELECT COUNT(*) FROM entity 
+
+5- SELECT * FROM entity WHERE incorporation_date > '2000-01-01'
